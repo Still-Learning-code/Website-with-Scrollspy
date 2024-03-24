@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <script src="https://kit.fontawesome.com/515aecdffd.js"crossorgin"anonymous"></script>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>  
+  </head>
+  <body>     
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">   
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#section1">UNCART</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section2">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section3">THE LIST</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div id="section1" class="container-fluid bg-success" style="padding:100px 20px;">
+  <h1>&#9734UNCART&#9734<i class="fas fa-search"></i></h1><!---make new file for true search--->
+</div>
+
+<div id="section2" class="container-fluid bg-warning" style="padding:100px 20px;">
+  <h2>ABOUT US</h2>
+  <ol>
+      <li><a href="#">FOLLOW@UNCART</a></li>
+      <li><a href="#">UNCART.com</a></li>
+      <li><a href="#">SHOPUNCART.COM</a></li>
+      <li><a href="#">UNCART.TV</a></li>
+        <li><a href="#">LANGUAGE:ENGLISH</A></LI>
+    </ol>  
+</div>
+
+<div id="section3" class="container-fluid bg-secondary" style="padding:100px 20px;">
+  <h3>THE LIST</h3>
+   <br>
+  <p>AUTOMOTIVE</p>
+  <p>BEVERAGES</p>
+  <p>CIGARS</p>
+  <p>ETC</p>
+  <p>EVENT SPREADS</p>
+  <p>FUN STUFF</P>
+  <p>GOURMET</P>
+  
+  
+  
+</div>
+
+  </body>
+</html>
+
+CSS
+
+
+ body {
+      position: relative; 
+  }
+div{
+  text-align: center;
+}
+li,a{
+  display: inline;
+  font: bold 15px Helvetica,sans-serif;
+  padding: 2px;
+  text-decoration: none !important;
+  list-style: none !important;
+}
+h2{
+  font: bold 24px Courier,sans-serif;
+}
+h3{
+  font: italic 24px Monospace,sans-serif;
+}
+
+
